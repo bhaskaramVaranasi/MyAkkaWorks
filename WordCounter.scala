@@ -51,7 +51,7 @@ class StringCounterActor extends Actor{
 		}
 	}
 }
-object Sample extends App {
+object WordCounter extends App {
 	import akka.util.Timeout
 	import scala.concurrent.duration._
 	import akka.pattern.ask
